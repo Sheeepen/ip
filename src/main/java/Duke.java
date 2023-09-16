@@ -25,8 +25,10 @@ public class Duke {
     }
 
     /**
-     * You should have your own function to generate a response to user input.
-     * Replace this stub with your completed method.
+     * The response the Duke application sends after receiving a user input.
+     *
+     * @param input The user input.
+     * @return The message to be displayed.
      */
     public String getResponse(String input) {
         Command c;
